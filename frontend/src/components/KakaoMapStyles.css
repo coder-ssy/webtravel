@@ -1,0 +1,19 @@
+.kakao-map {
+    margin: 4rem 6rem;
+}
+
+.kakao-input {
+    width: 40%;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 850px) {
+    .kakao-map {
+      margin: 4rem 2rem;
+    }
+  }
+  
