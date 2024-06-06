@@ -3,12 +3,15 @@ import TripData from './TripData';
 import Trip1 from '../assets/7.png';
 import Trip2 from '../assets/8.png';
 import Trip3 from '../assets/9.png';
+import KakaoMap from './KakaoMap';
+
 
 function Trip() {
   return (
     <div className="trip">
       <h1>Recent Trips</h1>
-      <p>You can discover unique destinations using Google Maps.</p>
+      <p>You can discover unique destinations using Kakao Maps.</p>
+      <KakaoMap/>
       <div className="tripcard">
         <TripData
           image={Trip1}
