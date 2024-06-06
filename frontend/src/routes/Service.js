@@ -3,7 +3,6 @@ import Hero from '../components/Hero';
 import AboutImg from '../assets/service.jpg';
 import Footer from '../components/Footer';
 import Trip from '../components/Trip';
-import KakaoMap from '../components/KakaoMap';
 
 function Service() {
   return (
@@ -16,7 +15,7 @@ function Service() {
         btnClass="hide"
       />
       <Trip />
-      <KakaoMap/>
+      
       <Footer />
     </>
   );
