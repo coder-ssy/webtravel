@@ -2,22 +2,22 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import AboutImg from '../assets/contact.jpg';
 import Footer from '../components/Footer';
-import ContactForm from '../components/ContactForm';
+import ContactListForm from '../components/ContactList';
 
-function Contact() {
+function ContactList() {
   return (
     <>
       <Navbar />
       <Hero
         cName="hero-mid"
         heroImg={AboutImg}
-        title="Contact"
+        title="ContactList"
         btnClass="hide"
       />
-      <ContactForm />
+      <ContactListForm />
       <Footer />
     </>
   );
 }
 
-export default Contact;
+export default ContactList;
